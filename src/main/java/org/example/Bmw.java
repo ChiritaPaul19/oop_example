@@ -35,4 +35,5 @@ public class Bmw extends Car {
     public void transmissionType() {
         System.out.println("\nThis is a RWD");
     }
+
 }

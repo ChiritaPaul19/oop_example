@@ -18,5 +18,6 @@ public abstract class Car {
     public void carPrice(double enginePrice, double gearboxPrice, double wheelsPrice, double discount){
         double finalPrice = enginePrice + gearboxPrice + wheelsPrice -discount;
         System.out.println("This car costs: " + finalPrice);
+
     }
 }
